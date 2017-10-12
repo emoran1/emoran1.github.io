@@ -1,0 +1,15 @@
+body {
+	margin: 0px; padding: 0px;
+}
+
+p{
+	color: red; font-style: italic;
+}
+
+h1{
+	font-family: courier; text-align: center;
+}
+
+div{
+	background-color: blue; display: block; color: white;
+}
