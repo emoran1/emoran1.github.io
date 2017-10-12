@@ -13,3 +13,12 @@ h1{
 div{
 	background-color: blue; display: block; color: white;
 }
+
+#project{
+	background-color: red; color: white;
+	margin: 150px;
+}
+
+.favorite{
+	background-color: #eee; color:white;
+}
