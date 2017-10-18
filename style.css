@@ -2,23 +2,30 @@ body {
 	margin: 0px; padding: 0px;
 }
 
-p{
-	color: red; font-style: italic;
+/** Navigation Bar **/
+ul{
+	list-style: none; width: 25%; position: fixed;
+	height: 100%; overflow: auto; margin: 0px;
+	padding: 0px;
 }
 
-h1{
-	font-family: courier; text-align: center;
+li a {
+	display: block; color: #000; padding: 8px 16px;
+	text-decoration: none;
 }
 
-div{
-	background-color: blue; display: block; color: white;
+li a.active {
+	background-color: #0066ff;
+	color: white;
 }
 
-#project{
-	background-color: red; color: white;
-	margin: 150px;
+li a:hover:not(.active){
+	background-color: #555; color: white;
 }
+/** End **/
 
-.favorite{
-	background-color: #eee; color:white;
-}
+/** About Me -Section**/
+
+
+
+
