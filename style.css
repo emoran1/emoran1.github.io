@@ -152,7 +152,6 @@ li a:hover:not(.active){
 	width: 99%; height: 430px; margin: 0.4%;
 	 background: #ccc;
 	float: left;
-	box-sizing: border-b
 }
 #skill-set p{margin: 1px;}
 
@@ -203,3 +202,25 @@ li a:hover:not(.active){
 .eng {width: 80%; background-color: #2196F3;}
 /** End **/
 
+
+/** Resume Page**/
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+#resume-conta h2 { 
+	font: bold 2em monospace;
+  	color: black;
+	border-right: .1em solid black;
+	width: calc(0.55em * 14); 
+	width: 14ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 8s steps(14, end),
+	           blink-caret .5s step-end infinite alternate;
+	           margin-left: 40%; margin-right: 40%;
+}
+#resume-conta{
+	width: 99%; height: 830px; margin: 0.4%;
+	 background: #ccc;
+	float: left;
+}
