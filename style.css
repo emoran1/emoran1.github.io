@@ -220,7 +220,7 @@ li a:hover:not(.active){
 	           margin-bottom: 2%;
 }
 #resume-conta{
-	width: 99%; height: 890px; margin: 0.4%;
+	width: 99%; height: 880px; margin: 0.4%;
 	float: left;
 }
 
@@ -229,7 +229,7 @@ li a:hover:not(.active){
 /** Navigation Bar **/
 nav {
 	width: 90%; margin: 1% 5%;
-	height: 45px; background: #eee;
+	height: 45px;
 	float: left;
 }
 
@@ -251,3 +251,45 @@ nav {
 	background-color: #555; color: white;
 }
 
+/** Each section under Project Page **/
+#arduino{
+	width: 90%; height: 250px;
+	margin: 2px 5%;
+	background-color: #cce; float: left;
+}
+
+#arduinoPic{
+	display: none;
+	background: yellow;
+	height:250px;
+	width:100%;
+	float: left;
+}
+
+#half-cont{
+	width: 46%; height: 100px;
+	margin:1%; display: inline-block;
+	background: #eee; float: left;
+}
+
+#img-arduino{
+	width: 45%; height: 45%;
+	background: red;
+}
+
+
+
+/** Php website developmnt part **/
+#php{
+	width: 90%; height: 250px;
+	margin: 2px 5%;
+	background-color: #ccc; float: left;
+}
+
+
+/** Game developmnt part **/
+#games{
+	width: 90%; height: 250px;
+	margin: 2px 5%;
+	background-color: #ccc; float: left;
+}
