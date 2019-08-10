@@ -1,0 +1,600 @@
+
+body {
+	margin: 0px; padding: 0px;
+	background: #eee;
+	font-family: Verdana, sans-serif;
+}
+
+.size_76{
+	width: 100%; height: 80%;
+	text-align: center;
+}
+
+
+.shadow {
+  -moz-box-shadow:    2px 2px 3px 3px #ccc;
+  -webkit-box-shadow: 2px 2px 3px 3px #ccc;
+  box-shadow:         2px 2px 3px 3px #ccc;
+}
+
+div{
+	width: 100%; height: 900px;
+}
+/** **/
+#personal_me{
+	width: 29%; position: left; height: 100%;
+	float: left; margin: 0.5%;
+	background: #404040; color: white;
+}
+
+.img-container{
+	width: 100%; height: 30%; 
+	background-color: yellow;
+	background-image: url("https://thewallpaper.co//wp-content/uploads/2016/10/hd-laptop-wallpapers-hd-desktop-wallpapers-amazing-images-background-photos-smart-phone-background-photos-widescreen-desktop-backgrounds-colourful-ultra-hd-2560x1600.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+	margin-bottom: 30px;
+	float: left;
+}
+
+.img2{
+	width: 25%; height: 34%;
+	margin: 60% 23% 1% 14%; border-radius: 50px;
+	background-color: red;
+	float: left;
+	position: relative;
+}
+
+
+.someText1 {
+	color: #ccc;
+	font-weight:bold;
+	margin-left: -22%;
+	margin-right: 3%;
+	margin-top: 75%;
+	float: left;
+}
+
+#art1{
+	width: 100%; height: 500px;
+	background-color: #3366cc;
+	margin-top: 10px;
+	float: left;
+}
+
+
+#art1 p, #art1 b{
+	text-align: justify; margin-left: 8%;
+	float: left;
+	width: 80%;
+	color: white;
+}
+
+#art1 h3{
+	text-align: left;
+  font-size: 120%;
+}
+
+h2, .small-conta h3, .part1 h4, #art1 h2, #section1 h2{
+	text-align: center;
+	margin-bottom: 2px;
+	font-family: 'Inconsolata', monospace;
+}
+
+.someLinks {
+	height: 45%;
+	margin-left:  12%;
+	width: 75%;
+	margin-top: 1%;
+}
+
+input[type=file] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px;
+  width: 98%;
+  margin: 4px 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+   display: inline-block;
+   border-radius: 4px;
+}
+
+input[type=file]:hover {
+	 background-color: #00bfff; /* For browsers that do not support gradients */
+  	background-image: linear-gradient(to right, #00bfff , #1a75ff); /* Standard syntax (must be last) */
+	background-size: cover;
+	cursor: pointer;
+}
+
+b#uniQ {
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+p.transboxcolumn {
+  margin-top: 0px;
+  padding: 2%;
+  background-color: #eee;
+  border-radius: 3px;
+  border: 1px solid black;
+  opacity: 0.9;
+}
+
+#testOnly{
+	margin-bottom: 7%;
+  font-size: 100%;
+}
+
+img.imgssss {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+  margin-left: 2.5px;
+  float: left;
+}
+
+img.imgssss:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#navi a:hover {
+	text-decoration: none;
+}
+
+/** End **/
+
+#navi{
+	width: 8%; margin: 0.5%;
+	height: 100%; background: #eee;
+	float: left;
+}
+
+/** Navigation Bar **/
+ul{
+	list-style: none; width: 8%;
+	height: 100%; overflow: auto; margin: 0px;
+	padding: 0px; float: left; position: fixed;
+}
+
+li a {
+	display: block; color: #000; padding: 8px 16px;
+	text-decoration: none; text-align: center;
+}
+
+ li a.active {
+	background-color: #0066ff;
+	color: white;
+}
+
+li a:hover:not(.active){
+	background-color: #555; color: white;
+}
+
+
+
+
+
+/** End **/
+
+/** About Me -Section**/
+#section1{
+	width: 60%; height: 100%; margin: 0.5%;
+	background-color: #fff; float: left;
+	color: #000; text-align: center;
+}
+
+#aboutMe{
+	width: 60%; height: 100%; margin: 0.5%;
+	background-color: #404040; float: left;
+	color: white; text-align: center;
+}
+
+#back1{
+	width: 99%; height: 150px; margin: 0.4%;
+	background-image: url('Image/back1.jpg');
+	background-size: 100%; color: #FFF;
+    background-position: left top;
+
+}
+
+ #back1 hr{
+	margin-left: 30%; margin-right: 30%;
+}
+
+#about_me{
+	width: 99%; height: 300px; margin: 0.4%;
+	text-align: justify; background: #ccc;
+	float: left; background-image: url('Image/img1.jpg');
+	color: #FFF;
+}
+
+#about_me p{
+	margin-left: 10%; margin-right: 10%;
+}
+
+#onceL {
+	width: 50%;
+	height: 300px;
+	float: left;
+	background-color: red;
+}
+
+#onceR {
+	width: 50%;
+	height: 300px;
+	float: left;
+	background-color: green;
+}
+
+
+
+/** Cube 3d CSS3 animation-rotation**/
+
+
+
+
+
+/** SOcial Media Buttons  **/
+#social-media{
+	width: 40%; height: 20px; margin-right: 30%;
+	margin-left: 30%;
+}
+
+.fa {
+  padding: 20px 6px;
+  font-size: 15px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/** End **/
+
+/** Skill **/
+#skill-set{
+	width: 99%; height: 430px; margin: 0.4%;
+	 background: #ccc;
+	float: left;
+}
+#skill-set p{margin: 1px;}
+
+.small-conta{
+	background-color: #3c3c3c; width: 40%; height: 350px;
+	float: left; margin: 0.7%; color: #FFF;
+	text-align: left; border-radius: 15px 95px 0px;
+}
+.part1{
+	width: 70%; height: 125px;
+	 margin-left: 15%; margin-bottom: 2%;
+	float: left; margin-right: 15%;
+}
+
+#part2{
+	width: 70%; height: 75px;
+	margin-left: 15%; 
+	float: left;  margin-right: 15%; margin-top: 2%;
+}
+
+#left-conta{
+	margin-left: 10%;
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+  max-height: 14px;
+  border-radius: 15px 95px 0px;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 10px;
+  line-height: 14px;
+  color: white; max-height: 14px;
+  border-radius: 15px 95px 0px;
+}
+
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 75%; background-color: #2196F3;}
+.js {width: 45%; background-color: #ffa500;}
+.mySQL {width: 45%; background-color: #ffa500;}
+.java {width: 20%; background-color: #f44336;}
+.php {width: 10%; background-color: #808080;}
+
+.spanish, .micro {width: 100%; background-color: #4CAF50;}
+.eng {width: 80%; background-color: #2196F3;}
+/** End **/
+
+
+/** Resume Page**/
+
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+#resume-conta h2 { 
+	font: bold 2em monospace;
+  color: black;
+	border-right: .1em solid black;
+	width: calc(0.55em * 8); 
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 3s steps(14, end),
+	 blink-caret .5s step-end infinite alternate;
+	 margin-left: 45%; margin-right: 45%;
+	 margin-bottom: 2%;
+}
+#resume-conta{
+	width: 99%; height: 880px; margin: 0.4%;
+	float: left;
+}
+
+
+/** Project Page **/
+/** Navigation Bar **/
+nav {
+	width: 90%; margin: 1% 5%;
+	height: 45px;
+	float: left;
+}
+
+/** Navigation Bar **/
+#navBar a {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#navBar a:hover {
+	background-color: #555; color: white;
+}
+
+/** Each section under Project Page **/
+#done{
+	width: 90%; height: 450px;
+	margin: 2px 5%;
+	background-color: #cce; float: left;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/** Awrds part **/
+#awards{
+	width: 90%; height: 300px;
+	margin: 2px 5%;
+	background-color: #ccc; float: left;
+}
+
+#myImG {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImG:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(70,184,242); /* Fallback color */
+  background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: blue;
+  font-size: 60px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color:	#1E90FF;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+.all-cont{
+	width: 100%;
+	height: 130px;
+	float: left;
+	margin-bottom: 5px;
+	margin-top: 1%;
+}
+
+#imgA {
+	width: 30%; height: 120px; margin-top: 2%; margin-left: 2%;
+	float: left;
+}
+
+#imgB {
+	width: 30%; height: 120px; margin-top: 2%; margin-left: 2%;
+	float: left;
+
+}
+
+#descB{
+	width: 62%;  margin-top: 2%; margin-left: 2%;
+	float: left; height: 116px;
+
+}
+
+#descB p{
+	font-size: 10px;
+}
+
+#descA{
+	width: 62%;  margin-top: 2%; margin-left: 2%;
+	float: left; height: 116px;
+}
+
+#descA p{
+	font-size: 10px;
+}
+
+#textP{
+	text-align: left;
+}
+
+div.background {
+  background: url(http://sfwallpaper.com/images/laptop-background-photos-2.jpg) no-repeat;
+  height: 116px;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 2px;
+  width: 99%;
+  height: 108px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5px;
+  font-weight: bold;
+  color: #000000;
+  
+}
+
+
+/* Contact Me Form */
+#formC body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+#formC input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+#formC input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#formC input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container5 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+#formC{
+width: 70%;
+margin-left: 15%;
+margin-right: 15%;
+}
+
+
+/* portfolio css in Project */
