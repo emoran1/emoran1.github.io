@@ -399,7 +399,7 @@ nav {
 
 /** Awrds part **/
 #awards{
-	width: 90%; height: 300px;
+	width: 90%; height: 400px;
 	margin: 2px 5%;
 	background-color: #ccc; float: left;
 }
@@ -500,12 +500,12 @@ nav {
 
 #imgA {
 	width: 30%; height: 120px; margin-top: 2%; margin-left: 2%;
-	float: left;
+	float: left; 
 }
 
 #imgB {
 	width: 30%; height: 120px; margin-top: 2%; margin-left: 2%;
-	float: left;
+	float: left; 
 
 }
 

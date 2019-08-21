@@ -142,19 +142,43 @@ h1 {
 
 /* awards */
 #awards{
-  width: 100%; height: 300px;
+  width: 81%; height: 350px;
+  margin-left: 9.2%;
   padding: 20px;
+  margin-bottom: 10px;
   background-color: #ccc; float: left;
+  text-align: center;
 }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (min-width: 1020px){
+@media only screen and (max-width: 600px){
 
   #awards{
-  width: 82%; height: 300px;
+  width: 97%; height: 300px;
   padding: 20px;
-  margin-left: 8.5%;
+  margin-left: 1%;
   background-color: #ccc; float: left;
+}
+
+#imgB img {
+  
+  margin-bottom: 0px;
+  margin-right: 0px;
+  max-width: 120%;
+  height: 120%;
+  padding-left: 6%;
+  padding-top: 15%;
+}
+
+div.transbox {
+  margin: 2px;
+  margin-right: 2px;
+  width: 97%;
+  height: 108px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
 }
@@ -165,8 +189,15 @@ h1 {
   transition: 0.3s;
 }
 
-#myImG:hover {opacity: 0.7;}
+#myImG2 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
 
+
+#myImG:hover {opacity: 0.7;}
+#myImG2:hover {opacity: 0.7;}
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -243,6 +274,7 @@ h1 {
   .modal-content {
     width: 100%;
   }
+  
 }
 
 .all-cont{
@@ -264,9 +296,30 @@ h1 {
 
 }
 
+
+@media only screen and (max-width: 1600px) {
+  #imgB img {
+  margin-left: 4%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  max-width:100%; height: 100%;
+}
+
+div.transbox {
+  margin: 2px;
+  width: 99%;
+  height: 108px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+}
+
 #descB{
   width: 62%;  margin-top: 2%; margin-left: 2%;
-  float: left; height: 116px;
+  float: left; height: 116px; 
 
 }
 
@@ -293,63 +346,12 @@ div.background {
   border: 2px solid black;
 }
 
-div.transbox {
-  margin: 2px;
-  width: 99%;
-  height: 108px;
-  background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 0.6;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
-}
 
 div.transbox p {
   margin: 5px;
   font-weight: bold;
   color: #000000;
   
-}
-
-
-
-/* Contact Me Form */
-#formC body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
-
-#formC input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-#formC input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-#formC input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-.container5 {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 10px;
-}
-
-#formC{
-width: 70%;
-margin-left: 15%;
-margin-right: 15%;
 }
 
 
@@ -374,7 +376,7 @@ margin-right: 15%;
   <div class="column websites">
     <div class="content">
       <div class="containerss">
-      <img src="Image/p1.png" alt="Avatar" class="imagess" style="width:100%">
+      <img src="Image/images.png" alt="Avatar" class="imagess" style="width:100%; height: 110%;">
       <div class="overlayss"><a href="#">Coming soon</a></div>
       </div>
     </div>
@@ -383,7 +385,7 @@ margin-right: 15%;
    <div class="column websites">
     <div class="content">
     <div class="containerss">
-      <img src="Image/p1.png" alt="Avatar" class="imagess" style="width:100%">
+      <img src="Image/images.png" alt="Avatar" class="imagess" style="width:100%; height: 110%;">
       <div class="overlayss"><a href="#">Clock-in System</a></div>
     </div>
     </div>
@@ -392,8 +394,8 @@ margin-right: 15%;
   <div class="column websites">
     <div class="content">
       <div class="containerss">
-      <img src="Image/p1.png" alt="Avatar" class="imagess" style="width:100%">
-      <div class="overlayss"><a href="#">Database Proj</a></div>
+      <img src="Image/devices2.png" alt="Avatar" class="imagess" style="width:100%; height: 90%;">
+      <div class="overlayss"><a href="http://eve.kean.edu/~moraevel/VIP/planner.html#coursePlanner">Course Planner Proj</a></div>
     </div>
     </div>
   </div>
@@ -401,26 +403,19 @@ margin-right: 15%;
   <div class="column websites">
     <div class="content">
     <div class="containerss">
-      <img src="Image/p1.png" alt="Avatar" class="imagess" style="width:100%">
+      <img src="Image/images.png" alt="Avatar" class="imagess" style="width:100%; height: 100%;">
       <div class="overlayss"><a href="#">Restaurant Web</a></div>
     </div>
     </div>
   </div>
 
-  <div class="column websites">
-    <div class="content">
-    <div class="containerss">
-      <img src="Image/p1.png" alt="Avatar" class="imagess" style="width:100%">
-      <div class="overlayss"><a href="https://sites.google.com/a/kean.edu/ge-1000-l3-evelyn-m-moran/">Google Website</a></div>
-    </div>
-    </div>
-  </div>
+  
   <!-- Mobile Apps-->
   <div class="column mobileApp">
     <div class="content">
       <div class="containerss">
-      <img src="Image/p1.png" alt="Avatar" class="imagess" style="width:100%">
-      <div class="overlayss"><a href="#">HealthCare App</a></div>
+      <img src="Image/devices1.png" alt="Avatar" class="imagess" style="width:100%">
+      <div class="overlayss"><a href="http://eve.kean.edu/~moraevel/mobWeb/caremanager.html">HealthCare App</a></div>
     </div>
     </div>
   </div>
@@ -428,7 +423,7 @@ margin-right: 15%;
   <div class="column mobileApp">
     <div class="content">
     <div class="containerss">
-      <img src="Image/p1.png" alt="Avatar" class="imagess" style="width:100%">
+      <img src="Image/images.png" alt="Avatar" class="imagess" style="width:100%">
       <div class="overlayss"><a href="#">Faculty Web</a></div>
     </div>
     </div>
@@ -439,7 +434,7 @@ margin-right: 15%;
   <div class="column graphics">
     <div class="content">
     <div class="containerss">
-      <img src="Image/p1.png" alt="Avatar" class="imagess" style="width:100%">
+      <img src="Image/images.png" alt="Avatar" class="imagess" style="width:100%">
       <div class="overlayss"><a href="#">LOGO</a></div>
     </div>
     </div>
@@ -509,7 +504,7 @@ for (var i = 0; i < btns.length; i++) {
 
       <div class="all-cont">  
       <div id="imgA">
-      <img id="myImG" src="Image/awardPic.jpg" alt="Kean University <br> Business Plan Competition 2019" style="max-width:200px">
+      <img id="myImG" src="Image/awardPic.jpg" alt="Kean University <br> Business Plan Competition 2019" style="max-width:100%; height: 100%;">
       </div>
 
     <div id="descA">
@@ -518,10 +513,9 @@ for (var i = 0; i < btns.length; i++) {
         <p>
         <b> Business Plan Competition 2019</b><br>
         Kean University | Jan 2019 - Apr 2019 <br><br> 
-        <p id="textP">- Our project got 3rd place in the Business Plan Competition [$1000] <br>
-        <p>
+        
             <button type="button" class="btn btn-default btn-sm">
-              <a href="http://www.cougarsbyte.com/article/2019/04/kean-universitys-business-plan-competition-finals"><span class="glyphicon glyphicon-circle-arrow-right"></span> Read More</a>
+              <a href="http://www.cougarsbyte.com/article/2019/04/kean-universitys-business-plan-competition-finals" target="_blank"><span class="glyphicon glyphicon-circle-arrow-right"></span> Read More</a>
             </button>
          </p>
 
@@ -533,6 +527,9 @@ for (var i = 0; i < btns.length; i++) {
     </div>
 
      <div class="all-cont">
+      <div id="imgB">
+        <img id="myImG2" src="Image/diploma.JPG" alt="Kean University <br> IT Diploma" style="transform: rotate(-90deg); ">
+        </div>
 
       <div id="descB">
       <div class="background">
@@ -543,7 +540,7 @@ for (var i = 0; i < btns.length; i++) {
           <p id="textP"> - Minor in Cybersecurity <br>
           <p>
               <button type="button" class="btn btn-default btn-sm">
-                <a href="#"></span> See More</a>
+                <a href="https://www.facebook.com/photo.php?fbid=4412201495473473&set=a.198537773506554&type=3&theater" target="_blank"><span class="glyphicon glyphicon-circle-arrow-right"></span>See More</a>
               </button>
            </p>
 
@@ -553,10 +550,6 @@ for (var i = 0; i < btns.length; i++) {
           </div>
         </div>
 
-        
-          <div id="imgB">
-          <img id="myImG" src="https://www.stickpng.com/assets/thumbs/58889589bc2fc2ef3a1860c0.png" alt="Kean University <br> Business Plan Competition 2019" style="max-width:200px; height: 120px; ">
-          </div>
 
       </div>
 
@@ -565,6 +558,12 @@ for (var i = 0; i < btns.length; i++) {
       <span class="close">&times;</span>
       <img class="modal-content" id="img01">
       <div id="caption"></div>
+    </div>
+
+    <div id="myModal2" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img02" style="transform: rotate(-90deg);">
+      <div id="caption2"></div>
     </div>
 
     </article>
@@ -601,6 +600,24 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 
+  // Get the modal
+  var modal2 = document.getElementById("myModal2");
+
+var img2 = document.getElementById("myImG2");
+var modalImg2 = document.getElementById("img02");
+var captionText2 = document.getElementById("caption2");
+img2.onclick = function(){
+  modal2.style.display = "block";
+  modalImg2.src = this.src;
+  captionText2.innerHTML = this.alt;
+}
+
+var span2 = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
 
 
 </script>
